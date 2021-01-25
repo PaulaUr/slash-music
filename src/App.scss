@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #0ccac4;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-title-text {
+  display: inline-block;
+  font-size: 30px;
+  margin: 16px;
+  font-weight: bold;
+}
+.container {
+  margin: 40px 0;
+}
+
+.header-icon {
+  align-self: flex-start;
+  margin: 16px;
+}
+.header-icon-favourite{
+  position: absolute;
+}
+.header-icon-count{
+  // margin-bottom: 25px;
+  top: -2px;
+  margin-left: 38px;
+  position: absolute;
+}

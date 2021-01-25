@@ -1,0 +1,21 @@
+.search-box-container{
+    display: flex;
+    margin: 16px;
+    background-color: #0aa9a3;
+}
+
+.search-box-input {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 155px;
+    line-height: 30px;
+    background-color: #0aa9a3;
+    // background-color: #0ccac4;
+  }
+
+  .search-box-icon{
+    padding: 10px;
+
+  }
